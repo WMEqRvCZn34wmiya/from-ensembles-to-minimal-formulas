@@ -1,0 +1,24 @@
+ANALISI BILANCIAMENTO DATASET
+==========================
+
+Dataset train:
+Totale elementi: 443
+Percentuali: Dict("1" => 51.46726862302483, "0" => 48.53273137697517)
+
+Dettaglio conteggio train:
+'1': 228 occorrenze (51.47%)
+'0': 215 occorrenze (48.53%)
+
+Dataset test:
+Totale elementi: 111
+Percentuali: Dict("1" => 54.054054054054056, "0" => 45.94594594594595)
+
+Dettaglio conteggio test:
+'1': 60 occorrenze (54.05%)
+'0': 51 occorrenze (45.95%)
+
+CONFRONTO TRAIN/TEST:
+====================
+Classe	Train%	Test%	Diff
+1	51.47%	54.05%	2.59%
+0	48.53%	45.95%	2.59%
