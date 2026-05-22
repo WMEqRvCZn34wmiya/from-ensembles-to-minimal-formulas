@@ -1,0 +1,30 @@
+ANALISI BILANCIAMENTO DATASET
+==========================
+
+Dataset train:
+Totale elementi: 1382
+Percentuali: Dict("unacc" => 70.33285094066571, "acc" => 22.3589001447178, "vgood" => 3.545586107091172, "good" => 3.762662807525326)
+
+Dettaglio conteggio train:
+'unacc': 972 occorrenze (70.33%)
+'acc': 309 occorrenze (22.36%)
+'vgood': 49 occorrenze (3.55%)
+'good': 52 occorrenze (3.76%)
+
+Dataset test:
+Totale elementi: 346
+Percentuali: Dict("unacc" => 68.78612716763006, "acc" => 21.67630057803468, "vgood" => 4.624277456647398, "good" => 4.913294797687861)
+
+Dettaglio conteggio test:
+'unacc': 238 occorrenze (68.79%)
+'acc': 75 occorrenze (21.68%)
+'vgood': 16 occorrenze (4.62%)
+'good': 17 occorrenze (4.91%)
+
+CONFRONTO TRAIN/TEST:
+====================
+Classe	Train%	Test%	Diff
+unacc	70.33%	68.79%	1.55%
+acc	22.36%	21.68%	0.68%
+vgood	3.55%	4.62%	1.08%
+good	3.76%	4.91%	1.15%

@@ -1,0 +1,24 @@
+ANALISI BILANCIAMENTO DATASET
+==========================
+
+Dataset train:
+Totale elementi: 96
+Percentuali: Dict("yes" => 42.70833333333333, "no" => 57.291666666666664)
+
+Dettaglio conteggio train:
+'yes': 41 occorrenze (42.71%)
+'no': 55 occorrenze (57.29%)
+
+Dataset test:
+Totale elementi: 24
+Percentuali: Dict("yes" => 37.5, "no" => 62.5)
+
+Dettaglio conteggio test:
+'yes': 9 occorrenze (37.5%)
+'no': 15 occorrenze (62.5%)
+
+CONFRONTO TRAIN/TEST:
+====================
+Classe	Train%	Test%	Diff
+yes	42.71%	37.5%	5.21%
+no	57.29%	62.5%	5.21%

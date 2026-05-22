@@ -1,0 +1,72 @@
+using CSV, DataFrames
+
+data_path = joinpath(@__DIR__, "divorce.data")
+df_path   = joinpath(@__DIR__, "..", "..", "dataframes", "divorce.csv")
+
+col_names = [
+    :Atr1,
+    :Atr2,
+    :Atr3,
+    :Atr4,
+    :Atr5,
+    :Atr6,
+    :Atr7,
+    :Atr8,
+    :Atr9,
+    :Atr10,
+    :Atr11,
+    :Atr12,
+    :Atr13,
+    :Atr14,
+    :Atr15,
+    :Atr16,
+    :Atr17,
+    :Atr18,
+    :Atr19,
+    :Atr20,
+    :Atr21,
+    :Atr22,
+    :Atr23,
+    :Atr24,
+    :Atr25,
+    :Atr26,
+    :Atr27,
+    :Atr28,
+    :Atr29,
+    :Atr30,
+    :Atr31,
+    :Atr32,
+    :Atr33,
+    :Atr34,
+    :Atr35,
+    :Atr36,
+    :Atr37,
+    :Atr38,
+    :Atr39,
+    :Atr40,
+    :Atr41,
+    :Atr42,
+    :Atr43,
+    :Atr44,
+    :Atr45,
+    :Atr46,
+    :Atr47,
+    :Atr48,
+    :Atr49,
+    :Atr50,
+    :Atr51,
+    :Atr52,
+    :Atr53,
+    :Atr54,
+    :Class,
+]
+
+df = CSV.read(
+    data_path,
+    DataFrame;
+    header=col_names,
+    missingstring="?",
+    stripwhitespace=true,
+)
+
+CSV.write(df_path, df)
